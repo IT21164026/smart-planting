@@ -46,11 +46,11 @@ export default function RegisterPage() {
 		<div className="w-full h-screen flex lg:flex-row flex-col bg-[url('/login.jpg')] bg-cover bg-no-repeat bg-center lg:justify-center items-center overflow-hidden">
 			<div className="w-[50%] h-[250px] lg:h-[600px] flex flex-col p-[20px] lg:justify-center items-center relative lg:p-[1px] rounded-xl overflow-hidden">
 				<TypingAnimation className="text-center w-full text-[15px] lg:text-[40px] text-white h-[50px]">
-					Join the City Sense Community!
+					Join the green revolution 😊
 				</TypingAnimation>
 				<div className="w-[400px] h-[200px] flex justify-center items-center lg:h-[400px] relative">
 					<div className="w-full h-full absolute rounded-full rotate-x-[70deg] rotate-y-[-30deg] flex justify-center items-center">
-						<div className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full border-t-[15px] border-t-white animate-spin"></div>
+						
 					</div>
 					<Image
 						src="/logo.png"
