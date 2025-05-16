@@ -12,6 +12,7 @@ import {
   Speaker,
   MapPin,
   Clock,
+  Snowflake,
 } from "lucide-react";
 import moment from "moment";
 
@@ -95,7 +96,7 @@ export default function Home() {
                   <span>Humidity: {lastRecord.humidity}%</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
-                  <Speaker size={24} />
+                  <Snowflake size={24} />
                   <span>Moisture: {lastRecord.moisture}</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
